@@ -32,6 +32,5 @@ strain_ma: Metadata assigning sample IDs mapped to phenotype (Clinical/Lab).
 	
  - Highlight Track: Windows characterized by an overall GDR lower than (<= gdr_cutoff = 0.8) are highlighted. 
 
-  Red indicates balanced windows; ivory indicates imbalanced windows.
-  The former will overlay with the gene name if that depends on a non-overlapping algorithm. 
-  For the ivory, the gene name is ignored as it will likely have too many overlaps.
+
+
