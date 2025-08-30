@@ -1,0 +1,21 @@
+Window,SHAP_Score,Genomic_Features,Num_Features
+window__194751-195250_pos468,0.0015827880580926903,Unknown (repeat_region+),3
+window__751-1250_pos457,0.0014627927420735277,Unknown (repeat_region+),1
+window__231501-232000_pos197,0.0014523308561940685,"Unknown (misc_feature+), US33A (gene+), US33A (mRNA+), US34 (gene+), US34A (gene+), Unknown (regulatory+)",8
+window__194501-195000_pos346,0.0012861460681870811,Unknown (repeat_region+),1
+window__195001-195500_pos389,0.0011200509458498852,Unknown (repeat_region+),3
+window__501-1000_pos187,0.0010666179224142717,Unknown (repeat_region+),2
+window__226501-227000_pos0,0.0008985959344208537,"Unknown (misc_feature+), US27 (gene+), US27 (mRNA+), US28 (gene+), Unknown (regulatory+), US29 (gene+), US29 (CDS+), hcmv-miR-US33-3p (ncRNA-), hcmv-miR-US33-5p (ncRNA-)",9
+window__195001-195500_pos260,0.0008789521146161135,Unknown (repeat_region+),3
+window__31501-32000_pos266,0.0008781345241520595,"Unknown (misc_feature+), UL25 (gene+), UL25 (CDS+)",3
+window__106751-107250_pos349,0.0008593452718977461,"Unknown (misc_feature+), UL72 (gene-), UL72 (CDS-), UL73 (gene+), UL73 (regulatory+), UL73 (mRNA+), UL73 (CDS+)",9
+window__194501-195000_pos349,0.0008473823495395133,Unknown (repeat_region+),1
+window__226501-227000_pos9,0.0008107778399175972,"Unknown (misc_feature+), US27 (gene+), US27 (mRNA+), US28 (gene+), Unknown (regulatory+), US29 (gene+), US29 (CDS+), hcmv-miR-US33-3p (ncRNA-), hcmv-miR-US33-5p (ncRNA-)",9
+window__39751-40250_pos483,0.0008056246051754821,"Unknown (misc_feature+), UL31 (gene+), UL31 (CDS+), UL32 (gene-), UL32 (CDS-)",5
+window__235251-235646_pos490,0.0007992391087535706,"Unknown (repeat_region+), Unknown (misc_feature+)",3
+window__5001-5500_pos482,0.0007961853650563651,"Unknown (misc_feature+), RL5A (gene-), RL5A (mRNA-), RL5A (CDS-)",4
+window__100251-100750_pos369,0.0007635296547990893,"Unknown (misc_feature+), UL69 (gene-), UL69 (CDS-)",3
+window__226501-227000_pos441,0.0007425630183311751,"Unknown (misc_feature+), US27 (gene+), US27 (mRNA+), US28 (gene+), Unknown (regulatory+), US29 (gene+), US29 (CDS+), hcmv-miR-US33-3p (ncRNA-), hcmv-miR-US33-5p (ncRNA-)",9
+window__106751-107250_pos451,0.0007398000631935807,"Unknown (misc_feature+), UL72 (gene-), UL72 (CDS-), UL73 (gene+), UL73 (regulatory+), UL73 (mRNA+), UL73 (CDS+)",9
+window__170751-171250_pos313,0.0007292234951981642,"Unknown (misc_feature+), UL122 (gene-), UL122 (CDS-)",3
+window__226501-227000_pos10,0.0007174284979327537,"Unknown (misc_feature+), US27 (gene+), US27 (mRNA+), US28 (gene+), Unknown (regulatory+), US29 (gene+), US29 (CDS+), hcmv-miR-US33-3p (ncRNA-), hcmv-miR-US33-5p (ncRNA-)",9
