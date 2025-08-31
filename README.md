@@ -39,7 +39,7 @@ This pipeline bridges the gap between phylogenetic analysis and machine learning
 
 **Methodology**
 
-1. **Inputs:** The same GDR file and metadata as Pipeline 1.
+1. **Inputs:** The same GDR file and metadata.
 
 2. **SNP Matrix Construction:**
 
