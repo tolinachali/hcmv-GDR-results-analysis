@@ -1,4 +1,4 @@
-## GDR Calculation and Circos Visualization
+## 1. GDR Calculation and Circos Visualization
 This pipeline uses results from WillowJ GDR calculation to combine a visual and quantitative assessment in one.
 **Inputs:**
 gdr_file: TSV of GDR, associated p-values, and other statistics from the determination on a windowed basis.
@@ -35,7 +35,7 @@ strain_ma: Metadata assigning sample IDs mapped to phenotype (Clinical/Lab).
  - Highlight Track: Windows characterized by an overall GDR lower than (<= gdr_cutoff = 0.8) are highlighted. 
 
 
-**Feature Engineering for Machine Learning (**`generate_variant_on_significat_GDR_windows.py`**)**
+### 2. Feature Engineering for Machine Learning (**`generate_variant_on_significat_GDR_windows.py`**)
 
 This pipeline bridges the gap between phylogenetic analysis and machine learning by constructing a feature matrix from the significant genomic windows.
 
@@ -75,4 +75,37 @@ This pipeline bridges the gap between phylogenetic analysis and machine learning
 
 **Achievement**
 
-This pipeline successfully translates biological sequences into a structured, high-dimensional dataset suitable for statistical learning. The innovative inclusion of GDR values as features empowers the model to leverage the phylogenetic signal during prediction.
+This pipeline successfully translates biological sequences into a structured, high-dimensional dataset suitable for statistical learning and analysis. The innovative inclusion of GDR values as features empowers the model to leverage the phylogenetic signal during prediction.
+
+### 3. Predictive Modeling and Biological Interpretation (***hcmv_shap_analysis.py***)
+**The pipeline processes a matrix of genetic variants (SNPs) and divergence scores (GDR) to:**
+
+-Build a predictive model that classifies HCMV strains as clinical or lab-adapted.
+
+-Interpret the model's decisions using SHAP (Shapley Additive exPlanations) to identify the most influential genomic features.
+
+-Annotate findings biologically by mapping significant features to genes and non-coding RNAs in the HCMV reference genome.
+
+ **Prepare Input Data:** Ensure your input CSV (rf_glm_input_snp_gdr.csv) and GenBank file (NC_006273.gb) are in the correct format and placed in the root directory.
+
+The input CSV should be a matrix with samples as rows and features (SNPs + GDR) as columns, including a Phenotype column.
+
+**This methodology overview:**
+
+**Preprocessing:** Low-variance SNPs are filtered out to reduce noise.
+
+**Dimensionality Reduction:** PCA, t-SNE, and MFA provide insights into data structure and cluster separation.
+
+**Modeling:** A optimized Random Forest model is trained to classify strain phenotypes.
+
+**Interpretation:** SHAP analysis identifies the specific SNPs and windows driving predictions.
+
+**Biological Translation:** Significant features are mapped to the reference genome and aggregated by gene to identify key drivers, such as UL73 (gN) and viral miRNAs.
+
+The pipeline prioritizes interpretability and biological relevance over pure predictive power, aiming to create models that can be understood and translated into a biological narrative. 
+
+The focus is not on creating the most accurate "black box" classifier, but on building a model that can be dissected and comprehended. 
+
+
+
+
