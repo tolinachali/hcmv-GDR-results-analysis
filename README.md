@@ -86,7 +86,7 @@ This pipeline successfully translates biological sequences into a structured, hi
 
 -Annotate findings biologically by mapping significant features to genes and non-coding RNAs in the HCMV reference genome.
 
- **Prepare Input Data:** Ensure your input CSV (rf_glm_input_snp_gdr.csv) and GenBank file (NC_006273.gb) are in the correct format and placed in the root directory.
+ **Prepare Input Data:** input CSV **rf_glm_input_snp_gdr.csv** and GenBank file **NC_006273.gb**
 
 The input CSV should be a matrix with samples as rows and features (SNPs + GDR) as columns, including a Phenotype column.
 
